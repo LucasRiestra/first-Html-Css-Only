@@ -1,0 +1,1335 @@
+/*HOME PAGE */
+
+/*HEADER*/
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+header{
+    margin-top: 0;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 2px;
+    text-align: left;
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    padding-left: 200px;
+}
+
+h1:hover {
+    color: white;
+}
+
+.navbar {
+    background-color: #212532;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: flex-start;
+    background-size: auto;
+}
+
+.navbar a {
+    float: center;
+    color: aliceblue;
+    text-align: right;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 40px;
+  }
+
+.navbar a:hover {
+    color: white
+  }
+
+/*IMGs DIV*/
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 600px 600px 400px;
+    justify-content: stretch;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.caja{
+    text-align: center;
+    line-height: 150px;
+    background-color: aqua;
+    margin: 1px;
+}
+
+.c1{
+    grid-column: 1/4;
+    background-image: url(img/photo-1535865732350-3c4e3c2cc1b5.avif);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 1px black;
+    transition: transform 1s;
+}
+
+.c1:hover {
+    transform: scale(1.01);
+}
+
+
+.c2{
+    background-image: url(img/airmax.product.men6.webp);
+    background-position: center center;
+    background-size: cover;
+    transition: transform 1s;
+}
+
+.c2:hover {
+    transform: scale(1.03);
+}
+
+.c3{
+    background-image: url(img/airmax.product.women3.webp);
+    background-position: center center;
+    background-size: cover;
+    transition: transform 1s;
+}
+
+.c3:hover {
+    transform: scale(1.03);
+}
+
+.c4{
+    background-image: url(img/airmax.product.men7.webp);
+    background-position: center center;
+    background-size: cover;
+    transition: transform 1s;
+}
+
+.c4:hover {
+    transform: scale(1.03);
+}
+
+.c5 {
+    grid-column: 1/3; 
+    background-image: url(img/photo-1598641615244-bae2bb361785.avif);
+    background-position: center center;
+    background-size: cover;
+    transition: transform 1s;
+  }
+  
+.c5:hover {
+    transform: scale(1.01);
+}
+
+.c6 {
+    grid-column: 3/4; 
+    background-image: url(img/airmax.Main.Women.jpeg);
+    background-position: center center;
+    background-size: cover;
+    transition: transform 1s;
+  }
+
+.c6:hover {
+    transform: scale(1.01);
+}
+
+.grid-faqs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 600px repeat(4, 1fr);
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+/*FAQS*/
+
+.faqsbox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  border: none;
+  margin: 10px;
+}
+
+.faqsbox img {
+  width: 50px;
+  height: 50px;
+}
+
+.f1 {
+  grid-column: 1/3;
+  background-image: url("img/FaqsAirmax3.jpeg");
+  background-size: cover;
+  background-position: center center;
+  border: none;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  color: #b0bffc;
+}
+
+.f1  .h1faqs {
+  color: #83a0f8;
+  transition: transform 2s;
+}
+
+.f1  .h1faqs:hover {
+  color: white;
+  transform: scale(1.08);
+}
+
+.f1 .overlay {
+  position: absolute;
+  width: 78.5%;
+  height: 64.5%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.f1 .titlefaqs {
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.titlefaqs {
+  position: relative;
+  z-index: 1;
+}
+
+
+.f2 {
+  grid-column: 1/2;
+  font-size: 1em;
+  border-right: 1px solid #9ebbff;
+}
+
+.f3 p {
+  grid-column: 2/3;
+  font-size: 1em;
+}
+
+.f4 {
+  grid-column: 1/2;
+  font-size: 1em;
+  border-right: 1px solid #9ebbff;
+}
+
+.f5 p {
+  grid-column: 2/3;
+  font-size: 1em;
+}
+
+.f6 {
+  grid-column: 1/2;
+  font-size: 1em;
+  border-right: 1px solid #9ebbff;
+}
+
+.f7 p {
+  grid-column: 2/3;
+  font-size: 1em;
+  border: none;
+}
+
+.f8 {
+  grid-column: 1/2;
+  font-size: 1em;
+  border-right: 1px solid #9ebbff;;
+}
+
+.f9 p {
+  grid-column: 2/3;
+  font-size: 1em;
+  border: none;
+}
+
+.f10 {
+  grid-column: 1/2;
+  font-size: 1em;
+  border-right: 1px solid #9ebbff;;
+}
+
+.f11 p {
+  grid-column: 2/3;
+  font-size: 1em;
+  border: none;
+}
+
+/*CATEGORY MEN`S*/
+
+.maincontent {
+  padding-top: 40px;
+}
+
+.grid-cats {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 35% 15% 35% 15%;
+  height: 900px;
+  margin: 0 auto;
+  justify-content: stretch;
+}
+
+.catbox {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.g1 {
+  background-image: url(img/airmax.product.men6.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+
+.g2 {
+  background-image: url(img/airmax.product.men8.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.g3 {
+  background-image: url(img/airmax.product.men5.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.g1:hover,
+.g2:hover,
+.g3:hover {
+  transform: scale(1.1);
+}
+
+.g4 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.g4 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+  text-align: center;
+}
+
+.g4 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.g4 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.g5 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.g5 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+}
+
+.g5 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.g5 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.g6 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.g6 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.g6 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.g6 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.g7 {
+  background-image: url(img/airmax.product7.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.g8 {
+  background-image: url(img/airmax.product.men7.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.g9 {
+  background-image: url(img/airmaxplus.product.men4.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.g7:hover,
+.g8:hover,
+.g9:hover {
+  transform: scale(1.1);
+}
+
+.g10 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.g10 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+}
+
+.g10 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.g10 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.g11 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.g11 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.g11 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.g11 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.g12 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.g12 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.g12 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.g12 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*CATEGORY WOMEN*/
+
+.maincontent {
+  padding-top: 40px;
+}
+
+.grid-women {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 35% 15% 35% 15%;
+  height: 900px;
+  margin: 0 auto;
+  justify-content: stretch;
+}
+
+.airwomen {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.w1 {
+  background-image: url(img/Airmax.product.Women.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+
+.w2 {
+  background-image: url(img/airmax.product.women3.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.w3 {
+  background-image: url(img/airmax.product.women4.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.w1:hover,
+.w2:hover,
+.w3:hover {
+  transform: scale(1.1);
+}
+
+.w4 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.w4 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+  text-align: center;
+}
+
+.w4 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.w4 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.w5 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.w5 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+}
+
+.w5 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.w5 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.w6 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.w6 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.w6 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.w6 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.w7 {
+  background-image: url(img/airmax.product.women5.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.w8 {
+  background-image: url(img/airmax.product.women6.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.w9 {
+  background-image: url(img/Airmax.product.Women2.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.w7:hover,
+.w8:hover,
+.w9:hover {
+  transform: scale(1.1);
+}
+
+.w10 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.w10 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+}
+
+.w10 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.w10 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.w11 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.w11 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.w11 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.w11 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.w12 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.w12 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.w12 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.w12 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*CATEGORY KIDS*/
+
+.maincontent {
+  padding-top: 40px;
+}
+
+.grid-kids {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 35% 15% 35% 15%;
+  height: 900px;
+  margin: 0 auto;
+  justify-content: stretch;
+}
+
+.airkids {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.k1 {
+  background-image: url(img/AirmaxKid1.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+
+.k2 {
+  background-image: url(img/Airmaxkid2.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.k3 {
+  background-image: url(img/Airmaxkid3.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.k1:hover,
+.k2:hover,
+.k3:hover {
+  transform: scale(1.1);
+}
+
+.k4 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.k4 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+  text-align: center;
+}
+
+.k4 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.k4 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.k5 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.k5 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+}
+
+.k5 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.k5 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.k6 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.k6 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.k6 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.w6 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.k7 {
+  background-image: url(img/Airmaxkid4.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.k8 {
+  background-image: url(img/Airmaxkid5.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.k9 {
+  background-image: url(img/Airmaxkid6.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.k7:hover,
+.k8:hover,
+.k9:hover {
+  transform: scale(1.1);
+}
+
+.k10 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.k10 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #005675;
+}
+
+.k10 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.k10 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.k11 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.k11 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.k11 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.k11 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.k12 {
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.k12 a {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #005675;
+}
+
+.k12 button {
+  background-color: #595a6f;
+  color: #d6d6d6;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+}
+
+.k12 button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* MEN PRODUCT */
+/* AIRMAX SC PRODUCT */
+.grid-airmaxSc {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows: auto;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+
+.airmaxSc {
+  text-align: center;
+  line-height: 150px;
+}
+
+.s1 {
+  grid-column: 1/5;
+  justify-content: center;
+  font-size: 75px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #005675;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.s2 {
+  grid-column: 1/3;
+  grid-row: 2/5;
+  background-image: url(img/airmax.product.men6.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+}
+
+.s:hover {
+   transform: scale(1.1);
+}
+
+.s3 {
+  grid-column: 3/5;
+  background-size: contain;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color:#005675;
+  text-align: center;
+}
+
+.s4 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.s4 p {
+  line-height: 1.2;
+  margin: 17px;
+}
+
+.s5 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.s5 p {
+  line-height: 1.2;
+  margin: 17px;
+}
+
+.s7 {
+  grid-column: 3/5;
+  font-size: 20px;
+}
+
+.s7 p {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.s7 button {
+  grid-column: 3/5;
+  background-color: #4d91ff;
+  color: #d6d6d6;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.s7 button:hover {
+  background-color: #28328a;
+  color: #ffffff;
+}
+
+
+.s9 {
+  grid-column: 1/5;
+  justify-content: center;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #005675;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.s10 {
+  grid-column: 1 span 2;
+  background-image: url(img/airmax.product.men8.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+  border-top: 1px solid #9eb5ff;
+  ;
+}
+
+.s10:hover {
+  transform: scale(1.1);
+}
+
+.s11 {
+  grid-column: 2 span 3;
+  background-image: url(img/airmaxSC.3:4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+
+}
+
+.s11:hover {
+  transform: scale(1.1);
+}
+
+.s12 {
+  grid-column: 3 span 4;
+  background-image: url(img/airmax90negro.3:4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+
+}
+
+.s12:hover {
+  transform: scale(1.1);
+}
+
+.s13 {
+  grid-column: 4 span 5;
+  background-image: url(img/Airmaxkid4.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+  border-top: 1px solid #9eb5ff;
+}
+
+.s13:hover {
+  transform: scale(1.1);
+}
+
+.s14 {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  color: #005675;
+  font-weight: bold;
+  border-bottom: 1px solid #9eb5ff;
+}
+
+.s15 {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  color: #005675;
+  font-weight: bold;
+  border-bottom: 1px solid #9eb5ff;
+}
+
+.s16 {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  color: #005675;
+  font-weight: bold;
+  border-bottom: 1px solid#9eb5ff;
+}
+
+.s17 {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  color: #005675;
+  font-weight: bold;
+  border-bottom: 1px solid #9eb5ff;
+}
+
+
+  /* FOOTER */
+/* PRE-FOOTER */
+.prefooter {
+
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #00064a;
+    background-color: rgb(232, 242, 250);
+  }
+  
+  .prefooter img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  .prefooter button {
+    width: 100px;
+    height: 50px;
+    background-color: #3b3b3b;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  }
+  
+  .prefooter button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  
+  footer {
+    background-color: #212532;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #c7c7c7;
+    margin: 0;
+  }
+  
+  footer .help ul,
+  footer .about ul,
+  footer .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer .help ul,
+  footer .about ul,
+  footer .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer .help ul li,
+  footer .about ul li,
+  footer .social-media ul li {
+    margin-bottom: 3px;
+  }
+  
+  footer .social-media ul li a {
+    color: #c7c7c7;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  footer li:hover {
+    color: white;
+  }
+  
+  footer .social-media ul li a:hover {
+    color: white;
+  }
+  
+
+  /*END*/ 
